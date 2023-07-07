@@ -1,0 +1,21 @@
+{
+  "name": "metamorphosis",
+  "version": "1.0.0",
+  "description": "Kafka Learning Environment",
+  "main": "index.ts",
+  "scripts": {
+    "start:producer": "ts-node ./producer/index.ts",
+    "start:consumer": "ts-node ./consumer/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "avsc": "^5.7.7",
+    "node-rdkafka": "^2.16.1",
+    "ts-node": "^10.9.1"
+  }
+}
